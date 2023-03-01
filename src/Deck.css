@@ -21,10 +21,3 @@ button:focus {
 .Deck-cardarea {
     margin-top: 80px;
 }
-
-.Deck-cardarea>img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
