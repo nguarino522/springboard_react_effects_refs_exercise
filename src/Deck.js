@@ -30,7 +30,7 @@ const Deck = () => {
                 const res = await axios.get(`${BASEURL}/${deck.deck_id}/draw/`);
                 if (res.data.remaining === 0) {
                     setIsDeckEmpty(true);
-                    alert("There are no cards remaining!")
+                    alert("There are no cards remaining!");
                     setAutoDraw(false);
                 }
                 setDrawnCards([...drawnCards, res.data.cards[0]])
