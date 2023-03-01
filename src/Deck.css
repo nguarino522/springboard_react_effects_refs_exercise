@@ -1,0 +1,30 @@
+button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    /* display: none; */
+    margin: 10px auto;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+.Deck-cardarea {
+    margin-top: 80px;
+}
+
+.Deck-cardarea>img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
